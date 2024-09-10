@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { setloading } from '@/redux/authSlice'
 import { Loader2 } from 'lucide-react'
 
- export const Signup = () => {
+ const Signup = () => {
 
     const[ input , setInput ] = useState({
         fullname:"",
@@ -164,5 +164,5 @@ import { Loader2 } from 'lucide-react'
         </div>
     )
 }
-
+export default Signup;
 
