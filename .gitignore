@@ -1,4 +1,15 @@
+# Ignore package.json
+package.json
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all .log files
+*.log
 
 .env
-node_modules
+
+*.json
+config/
+*.tmp
 
