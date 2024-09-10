@@ -43,7 +43,9 @@ app.use(cookieParser())
 // During development, CORS allows you to test interactions between a frontend running on one port and a backend running on another.
 
 const corsOptions = {
-    origin:'http://localhost:5173',
+    origin:'https://jobportal-up7e.onrender.com',
+    // allowedOrigins = ['http://localhost:3000', 'https://example.com', 'https://another-example.com']; 
+
     credentials:true
 }
 
